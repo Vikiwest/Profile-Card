@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="icon"
+      href="icons/user.svg"
+      type="image/x-icon"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="profile-card">
+      <img 
+      class="profile-picture"
+        src="assets/Aboutimage.png"
+        alt="Profile Picture"
+        data-testid="profilePicture"
+      />
+      <h2 data-testid="fullName">Olorunda Victory C.</h2>
+      <h3 data-testid="jobTitle">Frontend Developer</h3>
+      <p data-testid="shortBio">
+        Passionate frontend developer with a strong foundation in HTML, CSS, and
+        JavaScript. Currently enhancing my skills through HNG projects.
+      </p>
+      <p data-testid="currentLocation">Lagos, Nigeria</p>
+      <p data-testid="emailAddress">chidiolorunda@gmail.com</p>
+      <div class="social-links" data-testid="socialLinks">
+        <a href="https://www.linkedin.com/in/victory-olorunda-aa615030a/" target="_blank"><img src="icons/linkedin.png" alt=""></a>
+        <a href="https://github.com/Vikiwest" target="_blank"><img src="icons/github.png" alt=""></a>
+        <a href="https://x.com/VikiWest" target="_blank"><img src="icons/twitter.png" alt=""></a>
+      </div>
+      <p id="utc-time" data-testid="currentTimeUTC"></p>
+    </div>
+  </body>
+</html>

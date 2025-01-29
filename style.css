@@ -1,0 +1,195 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 80px;
+  height: 100%;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.profile-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: auto;
+  width: 600px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-card h2,
+.profile-card h3,
+.profile-card p {
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.social-links {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-links img {
+  width: 60px;
+}
+
+@media (max-width: 650px) {
+
+
+  .profile-card {
+    width:500px ;
+  }
+
+  .profile-picture {
+    width: 300px;
+  }
+  
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 25px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+
+  .social-links img {
+    width: 40px;
+  }
+
+}
+
+@media (max-width: 520px) {
+
+
+  .profile-card {
+    width:450px ;
+  }
+
+  .profile-picture {
+    width: 300px;
+  }
+  
+  h2 {
+    font-size: 35px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 19px;
+  }
+
+  .social-links img {
+    width: 35px;
+  }
+}
+
+@media (max-width: 425px) {
+
+
+  .profile-card {
+    width:350px ;
+  }
+
+  .profile-picture {
+    width: 290px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+
+  .social-links img {
+    width: 32px;
+  }
+}
+
+@media (max-width: 375px) {
+
+
+  .profile-card {
+    width:300px ;
+  }
+
+  .profile-picture {
+    width: 290px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+
+  .social-links img {
+    width: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+
+
+  .profile-card {
+    width:260px ;
+  }
+
+  .profile-picture {
+    width: 260px;
+  }
+  
+  h2 {
+    font-size: 27px;
+  }
+  
+  h3 {
+    font-size: 19px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+
+  .social-links img {
+    width: 32px;
+  }
+}
